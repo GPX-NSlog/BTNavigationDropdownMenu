@@ -60,8 +60,8 @@ final class BTConfiguration {
         self.cellSeparatorColor = UIColor.darkGray
         self.cellTextLabelColor = UIColor.darkGray
         self.selectedCellTextLabelColor = UIColor.darkGray
-        self.cellTextLabelFont = UIFont.systemFont(ofSize: 17, weight: .bold)
-        self.navigationBarTitleFont = UIFont.systemFont(ofSize: 17, weight: .bold)
+        self.cellTextLabelFont = UIFont.boldSystemFont(ofSize: 17)
+        self.navigationBarTitleFont = UIFont.boldSystemFont(ofSize: 17)
         self.cellTextLabelAlignment = NSTextAlignment.left
         self.cellSelectionColor = UIColor.lightGray
         self.checkMarkImage = UIImage(contentsOfFile: checkMarkImagePath!)
